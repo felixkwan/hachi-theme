@@ -155,7 +155,7 @@ body {
     transition: all .4s ease;
     margin-bottom: 25px;
     padding: 0 10px;
-    height: 100vh;
+    {block:IfHeaderImage}height: 100vh;{/block:IfHeaderImage}
 }
 
 @media only screen and (max-width: 768px) {
@@ -387,6 +387,10 @@ input.input-search {
 @media only screen and (min-width: 768px) {
     .container {
         margin: 85px 68px 0;
+    }
+
+    .indexpage .container {
+        margin-top: 65px;
     }
 }
 
